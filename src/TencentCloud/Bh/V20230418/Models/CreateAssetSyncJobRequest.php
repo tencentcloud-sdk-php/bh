@@ -20,18 +20,18 @@ use TencentCloud\Common\AbstractModel;
 /**
  * CreateAssetSyncJob请求参数结构体
  *
- * @method integer getCategory() 获取同步资产类别，1 - 主机资产, 2 - 数据库资产
- * @method void setCategory(integer $Category) 设置同步资产类别，1 - 主机资产, 2 - 数据库资产
+ * @method integer getCategory() 获取同步资产类别，1 - 主机资产, 2 - 数据库资产，3-容器资产
+ * @method void setCategory(integer $Category) 设置同步资产类别，1 - 主机资产, 2 - 数据库资产，3-容器资产
  */
 class CreateAssetSyncJobRequest extends AbstractModel
 {
     /**
-     * @var integer 同步资产类别，1 - 主机资产, 2 - 数据库资产
+     * @var integer 同步资产类别，1 - 主机资产, 2 - 数据库资产，3-容器资产
      */
     public $Category;
 
     /**
-     * @param integer $Category 同步资产类别，1 - 主机资产, 2 - 数据库资产
+     * @param integer $Category 同步资产类别，1 - 主机资产, 2 - 数据库资产，3-容器资产
      */
     function __construct()
     {
